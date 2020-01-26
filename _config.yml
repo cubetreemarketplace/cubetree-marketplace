@@ -1,19 +1,5 @@
-collections:
-  authors:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+# Site Settings
+title: Timeline
+description: "Timeline is multipurpose, single page Jekyll theme that includes a timeline section."
+keywords: "jekyll, theme"
+google-tracking-id:
