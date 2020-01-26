@@ -1,3 +1,3 @@
-### Netlify CMS Jekyll Notes
+## Cubetree Website
 
-This branch contains the basic blog you get if you follow the Jekyll step by step tutorial https://jekyllrb.com/docs/step-by-step/01-setup/
+The entire cubetreemarketplace.com source code can be found here.

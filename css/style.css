@@ -1,0 +1,50 @@
+::selection {background: #ADD802;}
+
+header {
+    position: absolute;
+    width: 100vw;
+    z-index: 10;
+}
+
+.logo-nav {
+    height: 6em;
+}
+
+#hero {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://source.unsplash.com/1600x900/?dark-nature);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.hero-text {
+    color: white;
+    font-family: Geneva, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hero-text h1 {
+    font-size: 5em;
+    color: whitesmoke;
+    font-weight: 100;
+    text-shadow: 0 0 25px #000;
+}
+
+.hero-text p {
+    font-size: 1.5em
+}
+
+.hero-link {
+color: whitesmoke;
+}
+
+.hero-link:hover {
+    color: #ADD802;
+    }
