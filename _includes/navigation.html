@@ -1,32 +1,21 @@
-<!-- Navigation -->
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-expand-md sticky-top navbar-light bg-white">
     <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                <i class="fa fa-bars"></i>
-            </button>
-            <a class="navbar-brand page-scroll" href="#page-top">
-                <i class="fa fa-play-circle"></i> {{ site.title }}
-            </a>
-        </div>
+        <a class="navbar-brand" href="#"><img src="../assets/img/cubetreeLogo_dark.svg" alt="Cubetree Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleMenu"
+            aria-controls="navbarToggleMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-            <ul class="nav navbar-nav">
-                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+        <div class="collapse navbar-collapse" id="navbarToggleMenu">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
-
-                {% for page in site.pages | sort: "title" %}
-                {% unless page.url == "/index.html" or page.url == "/" %}
-                <li>
-                    <a class="page-scroll" href="#{{ page.title }}">{{ page.title }}</a>
-                </li>
-                {% endunless %}
-                {% endfor %}
+                <li class="nav-item"><a class="page-scroll nav-link" href="#About">About</a></li>
+                <li class="nav-item"><a class="page-scroll nav-link" href="#Clients">Clients</a></li>
+                <li class="nav-item"><a class="page-scroll nav-link" href="#Team">Team</a></li>
+                <li class="nav-item"><a class="page-scroll nav-link" href="#Contact">Contact Us</a></li>
             </ul>
         </div>
     </div>
 </nav>
-<!-- End Navigation -->

@@ -1,1 +1,10 @@
-::selection {background: #ADD802;}
+:root {
+    --logo-color: #ADD802;
+    scroll-behavior: smooth;
+  }
+
+::selection {background: var(--logo-color);}
+
+.navbar-brand { width: 10em; }
+
+.navbar.sticky-top {transition: background 500ms ease-in;}
