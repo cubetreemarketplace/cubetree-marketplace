@@ -8,8 +8,8 @@ backend:
   media_folder: 'assets/uploads'
 
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: '_posts/'
+  - name: 'team'
+    label: 'Team'
+    folder: 'collections/_team/'
     fields:
-      - { name: Title }
+      - { name: name }
