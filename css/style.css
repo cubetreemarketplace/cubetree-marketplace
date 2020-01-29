@@ -30,6 +30,14 @@ header.hero {
   background-position: right bottom;
 }
 
+.services-list li::before {
+  content: "\2022";
+  color: var(--logo-color);
+  display: inline-block;
+  width: 1em;
+}
+
+
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query since this is the default in Bootstrap */
 

@@ -1,8 +1,12 @@
 # Site Settings
-title: Timeline
+title: "Cubetree Marketplace"
 description: "Timeline is multipurpose, single page Jekyll theme that includes a timeline section."
 keywords: "jekyll, theme"
 google-tracking-id:
+company:
+  name: "Cubetree Marketplace"
+  mobile: +919999999999
+  email: "contact@cubetreemarketplace.com"
 
 # Collections
 collections_dir: collections
