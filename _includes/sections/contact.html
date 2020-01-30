@@ -1,0 +1,59 @@
+{% assign data = site.data.contact %}
+<!-- {{ data.title }} Start -->
+<section id="{{ data.title }}" class="py-5 content-section contact">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-5 text-white">
+                {% if data.heading %}
+                <h2 class=" mb-3">{{ data.heading != "" }}</h2>
+                {% endif %}
+                {% if data.subheading != "" %}
+                <h2 class=" mb-3">{{ data.subheading }}</h2>
+                {% endif %}
+                <p class="lead">{{ data.description }}</p>
+
+            </div>
+            <div class="col-md-6 card bg-transparent border-0 shadow-lg p-0">
+                <div class="card-header border-0 pb-2">
+                    <h6 class="text-white text-center">{{ data.form.header }}</h6>
+                </div>
+                <div class="card-body bg-light">
+                    <form name="contact" method="POST" data-netlify="true">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="firstname" class="d-none">Name</label>
+                                <input class="form-control" type="text" name="firstname" aria-label="First Name"
+                                    placeholder="First" required />
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="lastname" class="d-none">Name</label>
+                                <input class="form-control" type="text" name="lastname" aria-label="Last Name"
+                                    placeholder="Last" required />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="d-none">Email</label>
+                            <input class="form-control" type="email" name="email" aria-label="Email id"
+                                placeholder="Email" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mobile" class="d-none">Mobile</label>
+                            <input class="form-control" type="tel" name="mobile" aria-label="Mobile Number"
+                                placeholder="Mobile" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="d-none">Message</label>
+                            <textarea class="form-control" name="message" aria-label="Message Box" rows="2"
+                                placeholder="Enter message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn text-white">{{ data.form.button.label }}</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- {{ data.title }} End -->
