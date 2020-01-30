@@ -1,0 +1,10 @@
+title: 'hero'
+heading: 'Managing Relationships'
+subheading: 'Ensuring success in partnerships by building and executing a strong strategy that drives focus on the core capabilities that add real value to customers and ensure Sustainability, Savings and Success.'
+button:
+  visibility: false
+  label: 'Learn More'
+  href: 'wow.com'
+image:
+  src: './../assets/uploads/heroCubetree.svg'
+  alt: '3D tree made of cubes'

@@ -1,0 +1,21 @@
+title: 'about'
+heading: 'About Us'
+subheading: ''
+description: "We are a boutique marketing company with an international team of professionals with cumulative experience of over 100 years in marketing, management, strategy, managing relationships with trust and integrity. We are currently focusing on the promotion of Make In India products."
+list:
+  heading: 'Services We Offer'
+  services:
+    - 'India Market Development Strategy '
+    - 'Advisory and Consultancy Services '
+    - 'Business Process Facilitation'
+    - 'Strategic Tie-ups and Joint Ventures'
+    - 'Market identification - Positioning Pricing Placement'
+    - 'Customer Identification and Selection Advisory'
+    - 'Product Identification and Selection Advisory'
+    - 'Transactional Services'
+    - 'Managing Relationships'
+image:
+  src: './../assets/uploads/heroCubetree.svg'
+  alt: '3D tree made of cubes'
+
+

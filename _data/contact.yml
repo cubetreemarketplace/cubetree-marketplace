@@ -1,0 +1,12 @@
+title: 'contact'
+heading: 'Have questions? Want to partner?'
+subheading: ''
+description: 'Drop us a line. We would be happy to assist.'
+form:
+  header: 'Send us a message!'
+  fields:
+    name: true
+    mobile: true
+    email: true
+  button:
+    label: 'Submit'

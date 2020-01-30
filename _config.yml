@@ -1,19 +1,17 @@
-collections:
-  authors:
-    output: true
+# Site Settings
+title: 'Cubetree Marketplace'
+description: 'Managing relationships to ensure success in partnerships by building and executing a strong strategy that focuses on the core capabilities that add real value to customers and ensure Sustainability, Savings and Success.'
+keywords: 'Marketplace, Cubetree, Make in India, India Partnership'
+google-tracking-id:
+company:
+  name: 'Cubetree Marketplace'
+  mobile: '+919999999999'
+  email: 'contact@cubetreemarketplace.com'
+  gmaps: 'Block C, Defence Colony, New Delhi, Delhi, India'
 
-defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+# Collections
+collections_dir: collections
+
+collections:
+  - team
+
