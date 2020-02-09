@@ -3,7 +3,6 @@
 backend:
   name: github
   repo: cubetreemarketplace/cubetree-marketplace
-  branch: cms
 
 logo_url: './../assets/img/cubetreeLogo_dark.svg'
 
