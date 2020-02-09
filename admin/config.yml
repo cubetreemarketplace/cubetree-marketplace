@@ -5,11 +5,18 @@ backend:
   repo: cubetreemarketplace/cubetree-marketplace
   branch: cms
 
-  media_folder: 'assets/uploads'
+logo_url: './../assets/img/cubetreeLogo_dark.svg'
+
+media_folder: 'assets/uploads'
 
 collections:
-  - name: 'team'
-    label: 'Team'
-    folder: 'collections/_team/'
-    fields:
-      - { name: name }
+  - name: 'websiteInfo'
+    label: 'Website Information'
+    files:
+      - label: 'Website Information'
+        name: 'site'
+        file: '_config.yml'
+        fields:
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
