@@ -8,8 +8,10 @@ $(function() {
 
         if (scroll >= 300) {
             header.removeClass('bg-white').addClass("bg-light");
+            header.addClass("down");
         } else {
             header.removeClass("bg-light").addClass('bg-white');
+            header.removeClass("down");
         }
     });
 });

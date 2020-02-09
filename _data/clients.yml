@@ -1,0 +1,17 @@
+title: 'clients'
+heading: ''
+subheading: ''
+description: ''
+clients:
+  - name: 'Arboreal and Products'
+    url: 'http://www.arborealstevia.in/'
+    bgImg: './../../assets/uploads/leavesSeamless.jpg'
+    bgImgSize: '150px'
+    body:
+      img: './../../assets/uploads/magicLeaf.jpg'
+      imgDescription: 'Features of magic leaf stevia'
+      head: 'Exclusive Market Development Partners with Arboreal'
+      body: 'Representing Arboreal products such as Magicleaf Stevia. Their 100% natural sugar alternative
+                        which is free from Polyols, GMOs, allergens, gluten or
+                        chemicals.'
+      btn: 'Request a sample'

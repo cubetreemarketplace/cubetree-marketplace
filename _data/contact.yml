@@ -1,7 +1,7 @@
 title: 'contact'
-heading: 'Have questions? Want to partner?'
-subheading: ''
-description: 'Drop us a line. We would be happy to assist.'
+heading: 'Request a sample'
+subheading: 'Ask for a quote'
+description: 'Drop us a line. We would be happy to help.'
 form:
   header: 'Send us a message!'
   fields:
