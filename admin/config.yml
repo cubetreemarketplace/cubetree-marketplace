@@ -20,11 +20,3 @@ collections:
           - label: 'Title'
             name: 'title'
             widget: 'string'
-
-
-# collections:
-#   - name: 'team'
-#     label: 'Team'
-#     folder: 'collections/_team/'
-#     fields:
-#       - { name: name }
