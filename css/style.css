@@ -21,14 +21,59 @@ input[type=number]:focus,
   outline: none;
 }
 
-.navbar-brand { width: 10em; }
+.navbar-brand {
+  width: 10em;
+  transition: width 300ms ease;
+}
 
-.navbar.sticky-top {transition: background 500ms ease-in;}
+.navbar.down .navbar-brand {
+  width: 8em;
+}
+
+.navbar.sticky-top {transition: background-color 500ms ease-in;}
 
 header.hero {
   background: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7)), url('./../assets/uploads/heroBg.svg') no-repeat;
   background-position: right bottom;
 }
+
+/* Clients */
+
+.clientImage h5 {
+  font-size: 1.75em;
+  padding-left: .3em;
+  color: #212529;
+  border-radius: 0 .2em .2em 0;
+  border-left: .2em solid var(--logo-color);
+  background-image: linear-gradient(to right, rgba(173, 216, 2, 1) 50%, rgba(173, 216, 2, 0) 50%);
+  background-size: 200% 100%;
+  background-position: bottom right;
+  transition: background-position 500ms, color 600ms;
+ }
+
+ .clientImage h5:hover {
+   color: #fff;
+   background-position: left top;
+ }
+
+.clientImage a {
+  text-decoration: none;
+}
+
+.clientDescription a {
+  background-color: var(--logo-color);
+  transition: background-color 200ms;
+}
+
+.clientDescription a:hover {
+  background-color: rgb(136, 202, 14);
+}
+
+#Arboreal {
+background-position: center;
+}
+
+/* About */
 
 .services-list li::before {
   content: "\2022";
@@ -36,6 +81,8 @@ header.hero {
   display: inline-block;
   width: 1em;
 }
+
+/* Contact */
 
 .contact { background-color: #99C46B; }
 
@@ -58,7 +105,7 @@ header.hero {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+  .clientImage h5 { font-size: 1.25em; }
  }
 
 /* Large devices (desktops, 992px and up) */

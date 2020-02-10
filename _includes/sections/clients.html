@@ -1,0 +1,37 @@
+{% assign data = site.data.clients %}
+<!-- {{ data.title }} Start -->
+<section id="{{ data.title }}" class="{% if data.heading != '' %}py-4 py-lg-5 {% endif %}content-section">
+    <div class="container">
+        {% if data.heading != '' %}
+        <h2 class=" mb-4">{{ data.heading }}</h2>
+        {% endif %}
+        {% if data.subheading != '' %}
+        <h5>{{ data.subheading }}</h5>
+        {% endif %}
+        {% if data.description != '' %}
+        <p>{{ data.description }}</p>
+        {% endif %}
+    </div>
+    {% for client in data.clients %}
+    <div id="{{ client.name }}" class="py-4 py-lg-5"
+        style="background-image: url('{{ client.bgImg }}');background-size: {{ client.bgImgSize }};">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 clientImage text-center text-md-left">
+                    <a href="{{ client.url }}" target="_blank">
+                        <h5>{{ client.name }}</h5>
+                        <img class="img-fluid rounded shadow-lg" src="{{ client.body.img }}"
+                            alt="{{ client.body.imgDescription }}">
+                    </a>
+                </div>
+                <div class="col-md-8 p-4 clientDescription">
+                    <h3 class="mb-4">{{ client.body.head }}</h3>
+                    <p class="mb-5">{{ client.body.body }}</p>
+                    <a class="btn text-white" href="#contact">{{ client.body.btn }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</section>
+<!-- {{ data.title }} End -->
