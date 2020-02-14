@@ -21,6 +21,15 @@ input[type=number]:focus,
   outline: none;
 }
 
+.button {
+  background-color: var(--logo-color);
+  transition: background-color 200ms;
+}
+
+.button:hover {
+  background-color: rgb(136, 202, 14);
+}
+
 .navbar-brand {
   width: 10em;
   transition: width 300ms ease;
@@ -75,22 +84,13 @@ header.hero {
   transition: background-position 500ms, color 600ms;
  }
 
- .clientImage h5:hover {
-   color: #fff;
-   background-position: left top;
+.clientImage h5:hover {
+  color: #fff;
+  background-position: left top;
  }
 
 .clientImage a {
   text-decoration: none;
-}
-
-.clientDescription a {
-  background-color: var(--logo-color);
-  transition: background-color 200ms;
-}
-
-.clientDescription a:hover {
-  background-color: rgb(136, 202, 14);
 }
 
 #Arboreal {
