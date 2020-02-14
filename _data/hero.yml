@@ -4,7 +4,7 @@ subheading: 'Ensuring success in partnerships by building and executing a strong
 button:
   visibility: false
   label: 'Learn More'
-  href: 'wow.com'
+  href: '#contact'
 image:
   src: './../assets/uploads/cubetreeIcon.svg'
   alt: '3D tree made of cubes'
