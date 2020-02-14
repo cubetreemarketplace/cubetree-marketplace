@@ -1,10 +1,12 @@
-title: 'hero'
-heading: 'Managing Relationships with Trust and Integrity'
-subheading: 'Ensuring success in partnerships by building and executing a strong strategy that drives focus on the core capabilities that add real value to customers and ensure the 3S... Sustainability, Savings, and Success.'
+title: hero
+subheading: >-
+  Ensuring success in partnerships by building and executing a strong strategy
+  that drives focus on the core capabilities that add real value to customers
+  and ensure the 3S... **Sustainability, Savings, and Success**.
 button:
-  visibility: false
-  label: 'Learn More'
   href: '#contact'
+  label: Learn More
+  visibility: false
 image:
-  src: './../assets/uploads/cubetreeIcon.svg'
-  alt: '3D tree made of cubes'
+  alt: 3D tree made of cubes
+  src: ./../assets/uploads/cubetreeIcon.svg
