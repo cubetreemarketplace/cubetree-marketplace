@@ -9,13 +9,42 @@ logo_url: './../assets/img/cubetreeLogo_dark.svg'
 media_folder: 'assets/uploads'
 
 collections:
-  - name: 'websiteInfo'
-    label: 'Website Information'
+  - name: 'websiteSettings'
+    label: 'Basic Settings'
     files:
       - label: 'Website Information'
         name: 'site'
         file: '_config.yml'
         fields:
-          - label: 'Title'
+          - label: 'Website Title'
             name: 'title'
             widget: 'string'
+          - label: 'Website Description'
+            name: 'description'
+            widget: 'string'
+            pattern: ['.{50,200}', 'Description should be between 50 and 200 characters']
+          - label: 'Website Keywords'
+            name: 'keywords'
+            widget: 'string'
+          - label: 'Google Tracking ID'
+            name: 'google-tracking-id'
+            widget: 'string'
+            required: false
+          - label: 'Contact Information'
+            name: 'company'
+            widget: 'object'
+            fields:
+              - label: 'Company Name'
+                name: 'name'
+                widget: 'string'
+              - label: 'Company Mobile'
+                name: 'mobile'
+                widget: 'number'
+                required: false
+              - label: 'Company Email'
+                name: 'email'
+                widget: 'string'
+              - label: 'Company Address'
+                name: 'gmaps'
+                widget: 'string'
+                required: false
