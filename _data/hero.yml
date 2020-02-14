@@ -6,8 +6,8 @@ subheading: >-
   and ensure the 3S... **Sustainability, Savings, and Success**.
 button:
   href: '#contact'
-  label: Learn More
-  visibility: false
+  label: Contact Us
+  visibility: true
 image:
   alt: Cubetree icon
   src: ./../assets/uploads/cubetreeIcon.svg
