@@ -5,7 +5,7 @@
         <div class="row justify-content-md-between align-items-center align-items-md-start">
             <div class="col-8 col-md-7 pt-xl-5">
                 <h1 class="display-4">{{ data.heading }}</h1>
-                <p class="lead">{{ data.subheading }}</p>
+                <p class="lead">{{ data.subheading | markdownify }}</p>
                 {% if data.button.visibility %}
                 <a href="{{ data.button.href }}" class="btn btn-light page-scroll ">
                     {{ data.button.label }}

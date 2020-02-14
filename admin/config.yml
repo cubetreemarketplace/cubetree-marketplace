@@ -62,7 +62,7 @@ collections:
             pattern: ['([a-zA-Z][^\s])', 'Only Letters. No spaces.']
           - label: 'Sub-Heading'
             name: 'subheading'
-            widget: 'string'
+            widget: 'markdown'
           - label: 'Button'
             name: 'button'
             widget: 'object'
@@ -86,3 +86,4 @@ collections:
               - label: 'Image Description'
                 name: 'alt'
                 widget: 'string'
+
