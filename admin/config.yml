@@ -48,3 +48,15 @@ collections:
                 name: 'gmaps'
                 widget: 'string'
                 required: false
+
+  - name: 'homePage'
+    label: 'Home Page'
+    files:
+      - label: 'Hero Section'
+        name: 'hero'
+        file: '_data/home.yml'
+        fields:
+          - label: 'Section Title'
+            name: 'title'
+            widget: 'string'
+            pattern: ['([a-zA-Z][^\s])', 'Only Letters. No spaces.']
