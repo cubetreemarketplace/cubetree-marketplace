@@ -60,6 +60,9 @@ collections:
             name: 'title'
             widget: 'string'
             pattern: ['([a-zA-Z][^\s])', 'Only Letters. No spaces.']
+          - label: 'Heading'
+            name: 'heading'
+            widget: 'string'
           - label: 'Sub-Heading'
             name: 'subheading'
             widget: 'markdown'
