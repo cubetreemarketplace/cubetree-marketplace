@@ -6,5 +6,5 @@ button:
   label: 'Learn More'
   href: 'wow.com'
 image:
-  src: './../assets/uploads/heroCubetree.svg'
+  src: './../assets/uploads/cubetreeIcon.svg'
   alt: '3D tree made of cubes'

@@ -1,0 +1,40 @@
+<svg width="250" height="350" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    #treeTop {
+  animation: top 9s ease infinite alternate;
+}
+
+#treeSide {
+  animation: side 6s ease infinite alternate;
+}
+
+@keyframes top {
+  to {
+    transform: rotate(8deg) translate(32px, -10px);
+  }
+}
+
+@keyframes side {
+  to {
+    transform: rotate(5deg) translate(22px, -6px);
+  }
+}
+  </style>
+  <defs>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+      <stop stop-color="#D6EE05" offset="0%"/>
+      <stop stop-color="#ADD802" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+      <stop stop-color="#D6EE05" offset="0%"/>
+      <stop stop-color="#ADD802" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g id="0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+    <g id="cubetreeHeroIcon" transform="translate(29.5 16)" fill-rule="nonzero">
+      <path d="M65.208 317.74v-75.516" id="bottom" stroke="#ADD802" stroke-width="6" stroke-linecap="round"/>
+      <path d="M190.662 109.868s-144.13-6.09-125.048 131.544c0 0 113.274 35.728 125.048-131.544z" id="treeSide" stroke="url(#linearGradient-1)" stroke-width="4" fill="url(#linearGradient-1)"/>
+      <path d="M65.208 242.224c-144.942-114.898 0-241.976 0-241.976 39.788 48.314 47.908 64.148 56.84 96.628-120.988 47.908-56.84 145.348-56.84 145.348z" id="treeTop" stroke="url(#linearGradient-2)" stroke-width="4" fill="url(#linearGradient-2)"/>
+    </g>
+  </g>
+</svg>

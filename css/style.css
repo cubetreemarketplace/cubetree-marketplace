@@ -32,10 +32,34 @@ input[type=number]:focus,
 
 .navbar.sticky-top {transition: background-color 500ms ease-in;}
 
+/* Hero */
+
 header.hero {
   background: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7)), url('./../assets/uploads/heroBg.svg') no-repeat;
   background-position: right bottom;
 }
+
+/* Hero Animation */
+#treeTop {
+  animation: top 9s ease infinite alternate;
+}
+
+#treeSide {
+  animation: side 6s ease infinite alternate;
+}
+
+@keyframes top {
+  to {
+    transform: rotate(8deg) translate(32px, -10px);
+  }
+}
+
+@keyframes side {
+  to {
+    transform: rotate(5deg) translate(22px, -6px);
+  }
+}
+
 
 /* Clients */
 
