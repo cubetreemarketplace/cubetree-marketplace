@@ -1,17 +1,11 @@
-# Site Settings
-title: 'Cubetree Marketplace'
-description: 'Ensuring success in partnerships by building and executing a strong strategy that drives focus on the core capabilities that add real value to customers and ensure Sustainability, Savings, and Success.'
+title: Cubetree Marketplace
+description: >-
+  Ensuring success in partnerships by building and executing a strong strategy
+  that drives focus on the core capabilities that add real value to customers
+  and ensure Sustainability, Savings, and Success.
 keywords: 'Marketplace, Cubetree, Make in India, India Partnership, Stevia, Sugarfree'
-google-tracking-id:
 company:
-  name: 'Cubetree Marketplace'
-  mobile: ''
-  email: 'contact@cubetreemarketplace.com'
+  email: contact@cubetreemarketplace.com
   gmaps: 'Block C, Defence Colony, New Delhi, Delhi, India'
-
-# Collections
-collections_dir: collections
-
-collections:
-  - team
-
+  mobile: ''
+  name: Cubetree Marketplace
